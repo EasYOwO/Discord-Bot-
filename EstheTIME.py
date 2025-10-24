@@ -13,7 +13,7 @@ intents.members = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Your bot token
-TOKEN = 'MTI3MTQxODIyMjI5Nzc0NzQ1Ng.G7u0QM.XdORbpdBYEOi2XsvN96Lmo9yKeSGQUrsTNQt4o'
+TOKEN = ''
 
 # Global dictionary to store timers
 timers = {}
@@ -247,3 +247,4 @@ async def add_users_to_channel(interaction: discord.Interaction, users: str, cha
 
 # Run the bot
 bot.run(TOKEN)
+
