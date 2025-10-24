@@ -15,7 +15,7 @@ intents.members = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Replace this with your bot token
-TOKEN = 'MTI3MjA5NDQyMDczMjM0NjQxMA.GBL5iC.JiadfNin7XOHdZF0zrFr9rATWCLkOmt0N5NZts'
+TOKEN = ''
 
 @bot.event
 async def on_ready():
@@ -133,3 +133,4 @@ async def rename_file(interaction: discord.Interaction, old_name: str, new_name:
 
 # Run the bot
 bot.run(TOKEN)
+
